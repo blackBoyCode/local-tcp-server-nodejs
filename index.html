@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Executing Process with Node</title>
+
+    <!-- Required styles for MDC Web -->
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"/>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Executing Process with Node</h1>
+
+    We are using node <script>document.write(process.versions.node)</script>,
+    Chrome <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>.
+
+    <button type="button" name="button" id="open-btn-id" class="mdc-button--outlined mdc-button" >Open</button>
+    <button type="button" name="button" id="server-btn-id" class="mdc-button--outlined mdc-button" >Start Sever</button>
+    <button type="button" name="button" id="send-btn-id" class="mdc-button--outlined mdc-button" >Send string</button>
+
+    <script>
+      require('./index.js')
+    </script>
+
+    <!-- Required MDC Web JavaScript library -->
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  </body>
+</html>

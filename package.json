@@ -1,0 +1,20 @@
+{
+  "name": "electron-java",
+  "version": "1.0.0",
+  "description": "experimenting calling java function with electron sample project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "blackBoyCode",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^5.0.1"
+  },
+  "dependencies": {
+    "locate-java-home": "^1.1.2",
+    "node-gyp": "^4.0.0",
+    "npm": "^6.9.0"
+  }
+}

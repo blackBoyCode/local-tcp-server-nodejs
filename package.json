@@ -15,6 +15,6 @@
   "dependencies": {
     "locate-java-home": "^1.1.2",
     "node-gyp": "^4.0.0",
-    "npm": "^6.9.0"
+    "npm": "^6.14.6"
   }
 }
